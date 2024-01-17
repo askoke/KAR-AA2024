@@ -39,6 +39,9 @@ p {
     padding: 20px;
     width: 25%;
 }
+#footer .topfooter div img {
+    margin-left: 50px;
+}
 #footer .topfooter div h3 {
     padding-bottom: 20px;
 }

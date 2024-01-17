@@ -10,16 +10,138 @@
 
 /* main */
 
+html, body {
+    min-width: 1320px; 
+}
+
 h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 18px;
 }
 
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 p {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
+}
+
+.container {
+    max-width: 92.42%;
+    margin: 0 7.58%;
+    width: auto;
+}
+
+/* navbar */
+
+#navbar {
+    background: #000000;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 5px 0;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    align-items: center;
+}
+
+#navbar .container {
+    width: 100%;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    height: 100%;
+}
+
+#navbar h1 {
+    float: left;
+    min-width: 106px;
+    min-height: 106px;
+}
+
+#navbar ul li {
+    padding: 41px 0;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    margin-bottom: 50%;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    background: #242424; 
+    border-radius: 5px;
+}
+
+/* activities */
+
+#activities {
+    width: 100%;
+}
+
+#activities .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7.58%;
+}
+
+.image-container-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 320px;
+}
+
+#activities img {
+    width: 300px;
+    height: 200px;
+    min-width: 285;
+    border-radius: 5px;
+}
+
+#activities .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7.58%;
+    margin-top: 20px;
+}
+
+#activities div a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    background-color: #F5F7FB;
+    padding: 30px;
+    width: 300px;
+}
+
+#activities div a p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#activities div h2 {
+    color: black;
+    margin: 0 7.58%;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 /* footer */
@@ -35,13 +157,20 @@ p {
     display: flex;
     padding: 40px;
 }
+
 #footer .topfooter div {
     padding: 20px;
     width: 25%;
 }
+
+#footer .topfooter div img {
+    margin-left: 50px;
+}
+
 #footer .topfooter div h3 {
     padding-bottom: 20px;
 }
+
 #footer .botfooter h3 {
     padding: 40px;
     text-align: center;

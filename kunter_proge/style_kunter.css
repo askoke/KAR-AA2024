@@ -12,6 +12,7 @@
 }
 
 /* navbar */
+
 #navbar {
     background: #000000;
     color: #fff;
@@ -24,7 +25,6 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 #navbar ul {
@@ -32,9 +32,9 @@
     display: flex;
     float: right;
 }
+
 #navbar h1 {
     float: left;
-    
 }
 
 #navbar ul li a {

@@ -1,16 +1,46 @@
-body {
+/* reset browser css */
+
+* {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0 20px;
-    overflow: auto;
+    padding: 0;
 }
 
+/* main */
 
-.image-container {
+html, body {
+    min-width: 1320px; 
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* activities */
+
+#activities {
+    width: 100%;
+}
+
+#activities .image-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin: 0 200px;
+    margin: 0 7.58%;
 }
 
 .image-container-news {
@@ -20,6 +50,46 @@ body {
     padding: 10px;
     margin: 0 320px;
 }
+
+#activities img {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    min-width: 285;
+    border-radius: 5px;
+}
+
+#activities .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7.58%;
+    margin-top: 20px;
+}
+
+#activities div a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    background-color: #F5F7FB;
+    padding: 30px;
+    width: 300px;
+}
+
+#activities div a p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#activities div h2 {
+    color: black;
+    margin: 0 7.58%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+/* news */
 
 #news div h2 {
     display: flex;
@@ -67,18 +137,4 @@ body {
     position: relative;
     top: 0px;
     left:800px;
-}
-
-img {
-    width: 300px; /* Set the desired width */
-    height: 200px; /* Set the desired height */
-    margin: 30px;
-}
-
-.button {
-    justify-content: space-around;
-    position: sticky;
-    text-align: center;
-    display: inline-block;
-    color:darkblue ;
 }
