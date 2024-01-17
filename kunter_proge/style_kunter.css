@@ -4,16 +4,15 @@
     margin: 0;
     padding: 0;
   }
-.container{
 
+.container {
     max-width: 92.42%;
     margin: 0 7.58%;
     width: 100%;
-    
-
 }
 
 /* navbar */
+
 #navbar {
     background: #000000;
     color: #fff;
@@ -26,7 +25,6 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 #navbar ul {
@@ -34,9 +32,9 @@
     display: flex;
     float: right;
 }
+
 #navbar h1 {
     float: left;
-    
 }
 
 #navbar ul li a {
