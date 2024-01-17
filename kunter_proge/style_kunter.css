@@ -4,6 +4,15 @@
     margin: 0;
     padding: 0;
   }
+.container{
+
+    max-width: 92.42%;
+    margin: 0 7.58%;
+    width: 100%;
+    
+
+}
+
 /* navbar */
 #navbar {
     background: #000000;
@@ -11,18 +20,23 @@
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: space-around; 
-    padding: 0rem;
     padding-top:5px;
     padding-bottom:5px;
     font-family: "Montserrat", sans-serif;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
 #navbar ul {
     list-style: none;
     display: flex;
-    align-items: center;
+    float: right;
+}
+#navbar h1 {
+    float: left;
+    
 }
 
 #navbar ul li a {
@@ -37,8 +51,15 @@
     border-radius: 5px;
 }
 
-/* container */
-.container {
-    margin: 2rem;
-    padding: 2rem;
+#for_players div {
+    justify-content: center;
+    width: 100%;
+
+    
+}
+#for_players div img{
+    width: 92.42%;
+    justify-content: center;
+    display: flex;
+
 }
