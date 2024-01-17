@@ -35,13 +35,20 @@ p {
     display: flex;
     padding: 40px;
 }
+
 #footer .topfooter div {
     padding: 20px;
     width: 25%;
 }
+
+#footer .topfooter div img {
+    margin-left: 50px;
+}
+
 #footer .topfooter div h3 {
     padding-bottom: 20px;
 }
+
 #footer .botfooter h3 {
     padding: 40px;
     text-align: center;
