@@ -90,6 +90,10 @@ p {
 #activities {
     width: 100%;
 }
+#activities a:hover {
+    box-shadow: 0px 10px 13px -7px #c1c1c1;
+    border-radius: 5px;
+}
 
 #activities .image-container {
     display: flex;
@@ -187,6 +191,10 @@ p {
     padding: 10px;
     padding: 15px 0;
 }
+.ext-btn:hover{
+    background: #242424; 
+    border-radius: 5px;
+}
 
 .ext-btn p {
     color: #fff;
@@ -194,7 +202,15 @@ p {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
 }
-  
+
+/* Partners */
+.partners {
+    justify-content: space-between;
+    display: flex;
+    float: center;
+    padding-bottom: 2rem;
+}
+
 /* footer */
 
 #footer {
