@@ -38,6 +38,20 @@ p {
     width: auto;
 }
 
+.secondary-bg-color {
+    background-color: #F5F7FB;
+}
+
+.pad-container {
+    max-width: 100%;
+    padding: 0 7.58%;
+    width: auto; 
+}
+
+img {
+    border-radius: 5px;
+}
+
 /* navbar */
 
 #navbar {
@@ -102,14 +116,6 @@ p {
     margin: 0 7.58%;
 }
 
-.image-container-news {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin: 0 320px;
-}
-
 #activities img {
     width: 300px;
     height: 200px;
@@ -154,10 +160,75 @@ p {
     width: 100%;
 }
 
-#activities div h2 {
+#schedule div h2 {
     color: black;
     justify-content: space-between;
     padding-bottom: 30px;
+    margin-top: 120px;
+}
+
+#schedule .table {
+    width: 100%;
+}
+
+#schedule ul {
+    list-style: none;
+    
+}
+
+#schedule .main-info {
+    background-color: #000000;
+    border-radius: 4px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    padding-left: 20px;
+    color: white;
+}
+
+#schedule .agenda-info {
+    border-radius: 4px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    padding-left: 20px;
+}
+
+#schedule .time-div {
+    width: 15%;
+    height: 100%;
+    padding: 20px;
+}
+
+#schedule .agenda-div {
+    width: 55%;
+    height: 100%;
+    padding: 20px;
+}
+
+#schedule .agenda-main-div {
+    width: 55%;
+    height: 100%;
+    padding: 10px 100px 10px 20px;
+}
+
+#schedule .venue-div {
+    width: 22%;
+    height: 100%;
+    padding: 10px 0px 10px 20px;
+}
+
+#schedule .venue-main-div {
+    width: 22%;
+    height: 100%;
+    padding: 20px;
+}
+
+#schedule .date-div {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 /* for_player banner */
@@ -215,12 +286,70 @@ p {
     font-weight: 600;
 }
 
+/* News */
+
+#news {
+    width: 100%;
+}
+
+#news div h2 {
+    color: black;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 120px;
+}
+
+#news .news-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#news .article-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 110px;
+    height: 350px;
+}
+
+#news .article-bg {
+    border-radius: 5px;
+    background-color: #fff;
+    width: 387px;
+    height: 100%;
+}
+
+#news h3 {
+    text-align: left;
+    padding: 25px 5px 25px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#news div p {
+    text-align: left;
+    padding: 0 25px 25px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
 /* Partners */
+
 .partners {
     justify-content: space-between;
     display: flex;
     float: center;
     padding-bottom: 2rem;
+}
+
+#partners div h2 {
+    color: black;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-top: 40px;
 }
 
 /* footer */
