@@ -144,6 +144,18 @@ p {
     padding-bottom: 30px;
 }
 
+/* schedule */
+
+#schedule {
+    width: 100%;
+}
+
+#activities div h2 {
+    color: black;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
 /* for_player banner */
 
 #for_players {
